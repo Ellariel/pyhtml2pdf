@@ -11,7 +11,7 @@ from selenium.webdriver.support.expected_conditions import staleness_of
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 
-from .compressor import __compress
+from .compressor import _compress
 
 
 def convert(
